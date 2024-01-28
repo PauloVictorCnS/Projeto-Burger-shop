@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(./img/backgraund.jpg);
+    background-size: cover;
+}
+samp{
+    color: green;
+}
+img{
+    width:100%;
+    border-radius: 20px;
+}
+p{
+    color: white;
+}
+ul{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    gap: 30px;
+    justify-content:center;
+    align-items: center ;
+    margin: 30px 0;
+    
+}
+li{
+    width: 25vh;
+    border: 2px solid white;
+    border-radius: 22px;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    cursor: pointer;
+    
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 40px;
+
+}
+button{
+    width: 130px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 2px 8px 34px 4px rgb(238, 241, 238);
+    border:none;
+    background-color: rgba(238, 241, 238, 0.411) ;
+    color: white;
+    cursor: pointer;
+
+   
+}
+button:active{
+    background-color: rgb(59, 214, 59);
+}
+button:hover{
+    opacity: 0.6;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    text-shadow: 2px 8px 34px 4px  rgb(55, 247, 8);
+    
+}
