@@ -21,10 +21,10 @@ p{
 ul{
     display: grid;
     grid-template-columns: 200px 200px 200px 200px ;
-    gap: 30px;
+    gap: 25px;
     justify-content:center;
     align-items: center ;
-    margin: 30px 0;
+    margin: 20px 0;
     
 }
 li{
@@ -34,6 +34,7 @@ li{
     text-align: center;
     background-color: rgb(15, 15, 15);
     cursor: pointer;
+    
     
 }
 .button-div{
@@ -64,6 +65,8 @@ button:active{
 }
 button:hover{
     opacity: 0.6;
+    box-shadow: 2px 8px 34px 4px rgb(13, 238, 13);
+    
 }
 h1{
     display: flex;
@@ -74,4 +77,8 @@ h1{
     text-align: center;
     text-shadow: 2px 8px 34px 4px  rgb(55, 247, 8);
     
+}
+li:hover{
+    
+    box-shadow: 2px 8px 34px 4px  rgb(13, 238, 13, 0.6);
 }
